@@ -1,3 +1,4 @@
+
 {
   "name": "textlauncher",
   "version": "3.0.0",
@@ -6,6 +7,7 @@
     "@capacitor/android": "^5.7.0",
     "@capacitor/cli": "^5.7.0",
     "@capacitor/core": "^5.7.0",
+    "ajv": "^8.12.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
@@ -20,5 +22,8 @@
   "browserslist": {
     "production": [">0.2%", "not dead", "not op_mini all"],
     "development": ["last 1 chrome version"]
+  },
+  "resolutions": {
+    "ajv": "^8.12.0"
   }
 }
